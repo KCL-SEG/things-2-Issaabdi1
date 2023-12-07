@@ -1,5 +1,6 @@
 """Forms of the project."""
 from .models import Thing
+from django import forms
 
 class ThingForm(forms.ModelForm):
     class Meta:
